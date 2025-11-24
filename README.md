@@ -22,7 +22,7 @@ cd first-spring-app
 
 ## H2 In-Memory Database
 to see the in-memory db, go to 
-http://localhost:8080/h2-console
+http://localhost:8080/h2-console after running the program
 with the following fields
 - JDBC URL: jdbc:h2:mem:testdb
 - Username: sa
