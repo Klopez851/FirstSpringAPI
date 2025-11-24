@@ -1,5 +1,5 @@
-# Notes API
-a simple Spring Boot REST API for managing tasks, using an in-memory H2 database.
+# Task API
+a simple Spring Boot REST API for managing tasks, using an in-memory H2 database and local hosting.
 
 This project demonstrates the standard Spring Boot structure with Controllers, Services, Repositories, and Entities.
 
@@ -7,7 +7,7 @@ This project demonstrates the standard Spring Boot structure with Controllers, S
 ### Prerequisites
 
 - Java 17+  
-- Maven or Gradle  
+- Maven  
 - IDE (IntelliJ IDEA, Eclipse, VS Code, etc.)
 
 ### Running the Application
@@ -50,9 +50,10 @@ Important things to note:
 }
 ```
 ## Technologies
-Java 17+
-Spring Boot 3.x
-Spring Web (REST API)
-Spring Data JPA
-H2 Database (in-memory)
-Maven
+- Java 17+
+- Spring Boot 3.x
+- Spring Web (REST API)
+- Spring Data JPA
+- H2 Database (in-memory)
+- Maven
+- Lombok
