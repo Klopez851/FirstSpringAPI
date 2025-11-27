@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 //Model, it holds all the data
 
-@Entity // links this class to table in db
+@Entity // links this class to table in db, or rathe IS the db table, just in code form, so they have to perfectly match
 public class Task {
     //al fields should be private in order to stop other classes from changing them unexpectedly.
     // THEY.SHOULD.ALWAYS.BE.PRIVATE.IN.MODELS.LINKED.TO.ENTITIES

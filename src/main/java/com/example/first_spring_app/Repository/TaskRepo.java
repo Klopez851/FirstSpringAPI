@@ -10,4 +10,7 @@ public interface TaskRepo extends JpaRepository<Task, Integer> {
     /// everytime an endpoint gets called, ull see a "hibernate" message
     /// this is the JPA implementation that turns the java objects into queries, the leg shows u exactly what sql got
     /// sent to the db, you can see this bc of the "spring.jpa.show-sql=true" in the resources/application.properties file
+    /// the JpaRepo takes in two parameter <T,ID></T,ID>
+    /// T → the Entity type (the class mapped to a database table)
+    /// ID → the type of that entity’s primary key
 }
