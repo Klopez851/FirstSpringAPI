@@ -5,7 +5,8 @@ import com.example.first_spring_app.Service.TaskService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
-
+/// the only type of validation that happens here is whether the data was well-formed, not whether it follows
+/// business rules, we want to send valid data to the service to apply the business logic
 @RestController //This class contains endpoints that return data (like strings or JSON), not HTML views.
 @RequestMapping("/task") // base URL, also maps a URL to a method.
 public class TaskController {

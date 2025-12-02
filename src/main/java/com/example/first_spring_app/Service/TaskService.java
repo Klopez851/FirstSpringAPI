@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 //business logic of the app, the methods that apply the logic on the data that the controller calls on live here
+//the only type of validation that happens here is whether the info given follows the bussiness rules, NOT if the info
+// itself is valid
 @Service
 public class TaskService {
 
